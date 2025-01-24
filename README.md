@@ -1,3 +1,3 @@
 <p align="center">
-   <img src="https://imgur.com/a/E0CCsOD">
+   <img src="https://raw.githubusercontent.com/mccts/Destiny/images/preview.png">
 </p> 

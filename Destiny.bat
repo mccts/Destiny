@@ -157,43 +157,6 @@ goto %previous_menu%
 :optimize_windows_service
 sc stop BITS
 sc stop Dnscache
-
-Verstanden! Hier sind zusätzliche Befehle, die du in jede der Optionen einfügen kannst, um die jeweiligen Bereiche noch weiter zu optimieren:
-
-1. Netzwerk-Optimierung (:network_operations)
-batch
-Kopieren
-Bearbeiten
-netsh interface tcp set global autotuninglevel=experimental
-netsh interface tcp set global netdma=enabled
-netsh interface ip set dns name="Ethernet" static 8.8.8.8
-netsh interface ip set dns name="Ethernet" static 8.8.4.4 index=2
-netsh advfirewall set allprofiles state off
-ping -n 3 8.8.8.8 >nul
-tracert 8.8.8.8
-Erklärung:
-
-DNS-Einstellungen auf Google DNS ändern.
-Deaktivieren der Windows-Firewall zur Netzwerk-Fehlerdiagnose.
-tracert gibt Informationen zur Route der Verbindung.
-2. TCP-Optimierung (:optimize_tcp)
-batch
-Kopieren
-Bearbeiten
-netsh int tcp set global initialrto=300
-netsh int tcp set global nonsecpath=enabled
-netsh int tcp set global rsc=enabled
-netsh int tcp show heuristics
-netsh int tcp show supplemental
-Erklärung:
-
-initialrto: Verkürzt den Timeout für Verbindungsversuche.
-Aktiviert TCP-Funktionen wie Receive Side Coalescing (RSC), um die Leistung zu verbessern.
-Zusätzliche Anzeigen, um den Status der Optimierungen zu überprüfen.
-3. Windows-Dienste optimieren (:optimize_windows_service)
-batch
-Kopieren
-Bearbeiten
 sc stop SysMain
 sc config SysMain start=disabled
 sc stop WSearch

@@ -68,7 +68,7 @@ echo 	  I recommend to create a System Restore Point because I am not responsibl
 echo 			    "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="  
 echo.
 echo 					    Made and published by  [90m[1mmccts[0m
-echo 				      TUNED [90m[1m*[0m Version %version% [90m[1m*[0m Last Update: %updatetime%
+echo 				     Destiny [90m[1m*[0m Version %version% [90m[1m*[0m Last Update: %updatetime%
 echo 			    "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="  
 echo.
 echo			  		           	Press any key to continue...

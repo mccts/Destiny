@@ -11,4 +11,7 @@ Destiny is a Batchfile Optimizer that tries to optimize your PC & Network for ma
 - Windows Services Optimizer
 - Power Optimization
 - Memory Optimization
-- Clean up PC 
+- Clean up PC
+
+## Idea
+Got my Idea from [this repo](https://github.com/buxh/ZER0-Batch-Optimizer)

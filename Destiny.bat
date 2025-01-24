@@ -24,7 +24,7 @@ echo [31m[!] Status.json is not available!
 echo Status: Opened > Status.json
 echo [92m[+] Created Status.json!
 echo [93m[i] Checking Network Connection
-for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| find "Status" ^| findstr /v "des gehosteten Netzwerks"') do set Status=%%a >nul
+for /f "tokens=2 delims=:" %%a in ('netsh wlan show interface ^| findstr /i "Status State" ^| findstr /v "des gehosteten Netzwerks hosted network"') do set Status=%%a >nul
 echo [DEBUG] Network Status: "%Status%"
 if not defined Status (
     echo [31m[!] Network status could not be determined!

@@ -6,9 +6,9 @@
 Destiny is a Batchfile Optimizer that tries to optimize your PC & Network for maximum Performance.
 
 ## Features
-Network Operations
-TCP Optimization
-Windows Services Optimizer
-Power Optimization
-Memory Optimization
-Clean up PC 
+- Network Operations
+- TCP Optimization
+- Windows Services Optimizer
+- Power Optimization
+- Memory Optimization
+- Clean up PC 

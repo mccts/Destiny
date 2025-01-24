@@ -67,7 +67,7 @@ echo 		  Destiny is a Tool to optimize your PC for maximum Performance and Conne
 echo 	  I recommend to create a System Restore Point because I am not responsible for any damage with your PC.
 echo 			    "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="  
 echo.
-echo 					    Made and published by  [90m[1mmccts[0m
+echo 					    	Made and published by  [90m[1mmccts[0m
 echo 				     Destiny [90m[1m*[0m Version %version% [90m[1m*[0m Last Update: %updatetime%
 echo 			    "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="  
 echo.

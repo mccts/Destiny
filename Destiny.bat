@@ -63,7 +63,7 @@ echo 			    "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 echo. 
 echo			  		           		 [31m[1mWarning[0m   
 echo.
-echo 		  Destiny is a Tool to decrease/lower your Latency and tries to stabilies your Network Connection.                     		                  
+echo 		  Destiny is a Tool to optimize your PC for maximum Performance and Connection.                     		                  
 echo 	  I recommend to create a System Restore Point because I am not responsible for any damage with your PC.
 echo 			    "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="  
 echo.

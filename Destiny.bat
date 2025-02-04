@@ -211,7 +211,7 @@ rd /s /q %systemdrive%\$Recycle.Bin
 exit /b
 
 :socials
-start https://guns.lol/mccts
+start https://ebio.gg/@mats
 goto %previous_menu% 
 
 :end
